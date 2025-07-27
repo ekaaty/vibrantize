@@ -1,6 +1,6 @@
 # Vibrantize 
 
-Modern style and vibrant blue 
+Modern style with vibrant blue 
 
 
 <img width="3045" height="1979" alt="eter" src="https://github.com/user-attachments/assets/76d81f0a-f353-42ce-a785-cbcc076ff16b" />
@@ -15,7 +15,7 @@ Modern style and vibrant blue
 
 Transparency of context menu is edited on the breeze style and also works for vibrantize 
 
-theme for the panel icons and panel applets with a mordern style and vibrant blue - https://github.com/orqvvcn/kde-panel-tasks
+theme for the panel icons and panel applets that follows this application style - https://github.com/orqvvcn/kde-panel-tasks
 
 
 
