@@ -18,7 +18,7 @@ Modern look with less sperator lines and a vibrant blue
 
 
 
-##Install
+## Install
 
 ```bash
 git clone https://github.com/orqvvcn/vibrantize.git
@@ -34,7 +34,7 @@ sudo make install
 
 
 
-##Uninstall
+## Uninstall
 
 ```bash
 sudo rm -f "/usr/lib/qt5/plugins/styles/vibrantize5.so"
