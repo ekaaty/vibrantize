@@ -12,7 +12,10 @@
 
 Transparency of context menu is edited on the breeze style and also works for vibrantize 
 
-Modern look with less sperator lines and a vibrant blue 
+Modern style with less sperator lines and a vibrant blue 
+
+
+theme for the panel icons and panel applets with less separator lines and a vibrant blue - https://github.com/orqvvcn/kde-panel-tasks
 
 
 
