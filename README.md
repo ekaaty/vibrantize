@@ -98,6 +98,8 @@ sudo apt-get install -y -qq cmake build-essential libkf5config-dev libkdecoratio
 
 
 
+-----------------------------------------------------------------------------------------
+
 ## Install
 
 ```bash
