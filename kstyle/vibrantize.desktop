@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Vibrantize
+Comment=Vibrant and modern widget style
+Type=Service
+X-KDE-ServiceTypes=KStyle
+X-KDE-Library=vibrantize6
