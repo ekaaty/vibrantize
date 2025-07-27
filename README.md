@@ -1,5 +1,7 @@
 # Vibrantize 
 
+Modern style with less sperator lines and a vibrant blue 
+
 
 <img width="3045" height="1979" alt="eter" src="https://github.com/user-attachments/assets/76d81f0a-f353-42ce-a785-cbcc076ff16b" />
 
@@ -10,12 +12,11 @@
 <img width="1749" height="1379" alt="gf" src="https://github.com/user-attachments/assets/1867c621-b093-4875-af68-8eba0e7a7e6f" />
 
 
+
 Transparency of context menu is edited on the breeze style and also works for vibrantize 
 
-Modern style with less sperator lines and a vibrant blue 
-
-
 theme for the panel icons and panel applets with less separator lines and a vibrant blue - https://github.com/orqvvcn/kde-panel-tasks
+
 
 
 
