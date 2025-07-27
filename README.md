@@ -19,7 +19,7 @@ theme for the panel icons and panel applets that follows this application style 
 
 
 
-##1st install dependencies for your distro and then go to the install part
+## 1st install dependencies for your distro and then go to the install part
 
 
 ## Arch based 
