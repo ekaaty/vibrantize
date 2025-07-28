@@ -207,7 +207,7 @@ function(build_colors_and_cursors)
    # add_subdirectory(cursors)
 endfunction()
 
-build_colors_and_cursors()
+#build_colors_and_cursors()
 
 # add clang-format target for all our real source files
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
