@@ -22,7 +22,7 @@ theme for the panel icons and panel applets that follows this application style 
 ## 1st install dependencies for your distro and then go to the install part
 
 
-## Arch based 
+## Arch/ Manjaro 
 
 ```bash
 sudo pacman -S --noconfirm cmake extra-cmake-modules kdecoration qt6-declarative kcoreaddons \
