@@ -1,54 +1,159 @@
-# Breeze style edit 
+# Vibrantize 
+
+Modern style with vibrant blue 
 
 
-<img width="1697" height="1190" alt="Screenshot_20250717_184645 cleaned" src="https://github.com/user-attachments/assets/70d639fd-8d10-4618-8e2a-9213c8cf0ab1" />
+<img width="3045" height="1979" alt="eter" src="https://github.com/user-attachments/assets/76d81f0a-f353-42ce-a785-cbcc076ff16b" />
 
-<img width="1697" height="1190" alt="Screenshot_20250717_185009 cleaned" src="https://github.com/user-attachments/assets/cdf602dc-3762-4aff-a414-a1f06a4319d0" />
+<img width="1749" height="1379" alt="fdg" src="https://github.com/user-attachments/assets/fe6e4181-bc71-4e9f-9827-1a9af8c72687" />
 
-<img width="1749" height="1379" alt="hj" src="https://github.com/user-attachments/assets/3f69be9f-4a7c-4b5d-8a53-cfe9b3f6edb2" />
+<img width="3060" height="2003" alt="fgg" src="https://github.com/user-attachments/assets/3b60e248-65e7-4ee5-94fd-04f39fd55415" />
 
-<img width="1749" height="1379" alt="kj" src="https://github.com/user-attachments/assets/bfd1a01d-120a-4ed6-9659-98360aab319b" />
+<img width="1749" height="1379" alt="gf" src="https://github.com/user-attachments/assets/1867c621-b093-4875-af68-8eba0e7a7e6f" />
 
 
-Breeze is the default style for [Plasma](https://kde.org/plasma-desktop/). This repository contains some parts of Breeze such as the cursors, wallpapers, and the application style.
 
-## Components
+Transparency of context menu is edited on the breeze style and also works for vibrantize 
 
-This repository contains many parts of Breeze, such as:
+theme for the panel icons and panel applets that follows this application style - https://github.com/orqvvcn/kde-panel-tasks
 
-* Color schemes, located under [/colors](/colors).
-* Cursors, located under [/cursors](/cursors).
-* Window decorations, located under [/kdecoration](/kdecoration).
-* Application style, located under [/kstyle](/kstyle).
-* Wallpapers, located under [/wallpapers](/wallpapers).
 
-### See Also
 
-If you can't find what you're looking for, it may exist in another repository instead:
+## 1st install dependencies for your distro and then go to the install part
 
-* [Breeze Icons](https://invent.kde.org/frameworks/breeze-icons) contains the icon set used in Plasma.
-* [libplasma](https://invent.kde.org/plasma/libplasma/-/tree/master/src/desktoptheme) includes the [Plasma Style](https://develop.kde.org/docs/plasma/theme/) that affects the visuals for the Plasma panel and widgets.
 
-* The [Breeze SDDM theme](https://invent.kde.org/plasma/plasma-desktop/-/tree/master/sddm-theme) lives within the Plasma Desktop repository, adjacent to the lock screen.
-* [Plasma Workspace Wallpapers](https://invent.kde.org/plasma/plasma-workspace-wallpapers) contains the rest of the default wallpapers shipped with Plasma.
-* [Breeze for GTK](https://invent.kde.org/plasma/breeze-gtk) is the Breeze [GTK](https://gtk.org/) theme.
-* [QQC2 Desktop Style](https://invent.kde.org/frameworks/qqc2-desktop-style) is the default [Qt Quick Controls](https://doc.qt.io/qt-6/qtquickcontrols-index.html) style for desktop KDE applications. It draws controls in QtQuick-based apps using the current application style. If you're using KDE apps on Plasma or another Linux desktop, you're most likely using it.
-* [Breeze Style for QQC2](https://invent.kde.org/plasma/qqc2-breeze-style) is a Qt Quick Controls style that mimics the visual styling of Breeze specifically. If you're using KDE apps on Android or Plasma Mobile, you're most likely using it.
+## Arch based 
 
-## Building
+```bash
+sudo pacman -S --noconfirm cmake extra-cmake-modules kdecoration qt6-declarative kcoreaddons \
+      kcmutils kcolorscheme kconfig kguiaddons kiconthemes kwindowsystem git \
+      qt5-declarative qt5-x11extras gcc make kcmutils5 \
+      frameworkintegration5 kconfigwidgets5 kiconthemes5 \
+      kirigami2 kwindowsystem5
+```
 
-The easiest way to make changes and test Breeze during development is to [build it with kdesrc-build](https://community.kde.org/Get_Involved/development/Build_software_with_kdesrc-build).
 
-When building Breeze manually, keep in mind that the Qt5 and Qt6 versions will be built by default. To control which versions are built, use the `BUILD_QT5` and `BUILD_QT6` CMake variables.
+## openSUSE Tumbleweed
 
-## Contributing
+```bash
+sudo zypper in --no-recommends git ninja cmake kf6-extra-cmake-modules kf6-kconfig-devel \
+      kf6-frameworkintegration-devel gmp-ecm-devel kf6-kconfigwidgets-devel \
+      kf6-kguiaddons-devel kf6-ki18n-devel kf6-kiconthemes-devel kf6-kwindowsystem-devel \
+      kf6-kcolorscheme-devel kf6-kcoreaddons-devel kf6-kcmutils-devel \
+      qt6-quick-devel kf6-kirigami-devel qt6-base-devel kdecoration6-devel \
+      qt6-tools qt6-widgets-devel gcc-c++ extra-cmake-modules libQt5Gui-devel \
+      libQt5DBus-devel libqt5-qttools-devel libqt5-qtx11extras-devel \
+      libQt5OpenGL-devel libQt5Network-devel libepoxy-devel kconfig-devel \
+      kconfigwidgets-devel kcrash-devel kglobalaccel-devel ki18n-devel kio-devel \
+      kservice-devel kinit-devel knotifications-devel kwindowsystem-devel kguiaddons-devel \
+      kiconthemes-devel kpackage-devel kwin5-devel xcb-util-devel xcb-util-cursor-devel \
+      xcb-util-wm-devel xcb-util-keysyms-devel kcmutils-devel \
+      libqt5-qtquick3d-devel kirigami2-devel libKF5I18n5
+```
 
-Like other projects in the KDE ecosystem, contributions are welcome from all. This repository is managed in [KDE Invent](https://invent.kde.org/plasma/breeze), our GitLab instance.
 
-* Want to contribute code? See the [GitLab wiki page](https://community.kde.org/Infrastructure/GitLab) for a tutorial on how to send a merge request.
-* Reporting a bug? Please submit it on the [KDE Bugtracking System](https://bugs.kde.org/enter_bug.cgi?format=guided&product=breeze). Please do not use the Issues
-tab to report bugs.
-* Is there a part of Breeze that's not translated? See the [Getting Involved in Translation wiki page](https://community.kde.org/Get_Involved/translation) to see how
-you can help translate!
+## Fedora
 
-If you get stuck or need help with anything at all, head over to the [KDE New Contributors room](https://go.kde.org/matrix/#/#kde-welcome:kde.org) on Matrix. For questions about Breeze, please ask in the [KDE Development room](https://go.kde.org/matrix/#/#kde-devel:kde.org). See [Matrix](https://community.kde.org/Matrix) for more details.
+```bash
+sudo dnf install -y git cmake extra-cmake-modules "cmake(KDecoration3)" kwin-devel \
+      kf6-kcolorscheme-devel kf6-kguiaddons-devel kf6-ki18n-devel kf6-kiconthemes-devel \
+      kf6-kirigami-devel kf6-kcmutils-devel kf6-frameworkintegration-devel \
+      libepoxy-devel "cmake(Qt5Core)" "cmake(Qt5Gui)" "cmake(Qt5DBus)" "cmake(KF5GuiAddons)" \
+      "cmake(KF5WindowSystem)" "cmake(KF5I18n)" "cmake(KF5CoreAddons)" "cmake(KF5ConfigWidgets)" \
+      "cmake(Qt5UiTools)" "cmake(KF5GlobalAccel)" "cmake(KF5IconThemes)" "cmake(KF5Init)" \
+      "cmake(KF5KIO)" kf5-kpackage-devel kf5-kcmutils-devel qt5-qtquickcontrols2-devel \
+      kf5-kirigami2-devel "cmake(KF5FrameworkIntegration)"
+```
+
+
+## KDE neon
+
+```bash
+sudo apt install -y git build-essential cmake kf6-extra-cmake-modules \
+      kf6-extra-cmake-modules kf6-frameworkintegration-dev \
+      kf6-kcmutils-dev kf6-kcolorscheme-dev kf6-kconfig-dev kf6-kconfigwidgets-dev \
+      kf6-kcoreaddons-dev kf6-kguiaddons-dev kf6-ki18n-dev kf6-kiconthemes-dev \
+      kf6-kirigami2-dev kf6-kpackage-dev kf6-kservice-dev kf6-kwindowsystem-dev \
+      kirigami2-dev kwayland-dev libx11-dev libkdecorations2-dev libkf5config-dev \
+      libkf5configwidgets-dev libkf5coreaddons-dev libkf5guiaddons-dev libkf5i18n-dev \
+      libkf5iconthemes-dev libkf5kcmutils-dev libkf5package-dev libkf5service-dev \
+      libkf5style-dev libkf5wayland-dev libkf5windowsystem-dev libplasma-dev \
+      libqt5x11extras5-dev qt6-base-dev qt6-declarative-dev qtbase5-dev \
+      qtdeclarative5-dev gettext qt6-svg-dev extra-cmake-modules qt3d5-dev
+```
+
+
+## Kubuntu (25.04)
+
+```bash
+sudo apt-get install -y -qq cmake build-essential libkf5config-dev libkdecorations3-dev \
+      libqt5x11extras5-dev qtdeclarative5-dev extra-cmake-modules \
+      libkf5guiaddons-dev libkf5configwidgets-dev libkf5windowsystem-dev kirigami2-dev \
+      libkf5coreaddons-dev libkf5iconthemes-dev gettext qt3d5-dev libkf5kcmutils-dev \
+      qt6-base-dev libkf6coreaddons-dev libkf6colorscheme-dev \
+      libkf6config-dev libkf6guiaddons-dev libkf6i18n-dev libkf6iconthemes-dev \
+      libkf6windowsystem-dev libkf6kcmutils-dev libkirigami-dev libkf6style-dev
+```
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+## Install
+
+```bash
+git clone https://github.com/orqvvcn/vibrantize.git
+cd vibrantize 
+rm -rf build/                                                 
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
+make -j$(nproc)
+sudo make install
+```
+
+
+
+
+## Uninstall
+
+```bash
+sudo rm -f "/usr/lib/qt5/plugins/styles/vibrantize5.so"
+sudo rm -f "/usr/lib64/qt5/plugins/styles/vibrantize5.so"
+sudo rm -f "/usr/lib/qt/plugins/styles/vibrantize5.so"
+sudo rm -f "/usr/lib/qt6/plugins/styles/vibrantize6.so"
+sudo rm -f "/usr/lib64/qt6/plugins/styles/vibrantize6.so"
+sudo rm -f "/usr/lib/libvibrantizecommon5.so*"
+sudo rm -f "/usr/lib64/libvibrantizecommon5.so*"
+sudo rm -f "/usr/lib/libvibrantizecommon6.so*"
+sudo rm -f "/usr/lib64/libvibrantizecommon6.so*"
+sudo rm -f "/usr/share/color-schemes/vibrantize.colors"
+sudo rm -f "/usr/share/color-schemes/VibrantizeClassic.colors"
+sudo rm -f "/usr/share/color-schemes/VibrantizeDark.colors"
+sudo rm -f "/usr/share/color-schemes/VibrantizeLight.colors"
+sudo rm -f "/usr/share/kstyle/themes/vibrantize.themerc"
+sudo rm -f "/usr/share/applications/vibrantizestyleconfig.desktop"
+sudo rm -f "/usr/share/applications/kcm_vibrantizedecoration.desktop"
+sudo rm -f "/usr/share/icons/hicolor/scalable/apps/vibrantize-settings.svgz"
+sudo rm -f "/usr/share/kstyle/vibrantize.desktop"
+sudo rm -f "/usr/lib/qt6/plugins/org.kde.kdecoration3/org.kde.vibrantize.so*"
+sudo rm -f "/usr/lib64/qt6/plugins/org.kde.kdecoration3/org.kde.vibrantize.so*"
+sudo rm -f "/usr/share/kservices6/vibrantizedecorationconfig.desktop"
+sudo rm -f "/usr/share/kservices6/vibrantize.desktop"
+sudo rm -f "/usr/share/kservices6/vibrantize6.desktop"
+sudo rm -f "/usr/lib/qt6/plugins/org.kde.kdecoration3.kcm/kcm_vibrantizedecoration.so*"
+sudo rm -f "/usr/lib64/qt6/plugins/org.kde.kdecoration3.kcm/kcm_vibrantizedecoration.so*"
+sudo rm -f "/usr/bin/vibrantize-settings6"
+sudo rm -f "/usr/lib/qt6/plugins/kstyle_config/vibrantizestyleconfig.so"
+sudo rm -f "/usr/lib/cmake/vibrantize/vibrantizeConfig.cmake"
+sudo rm -f "/usr/lib64/cmake/vibrantize/vibrantizeConfig.cmake"
+sudo rm -rf "/usr/lib/cmake/vibrantize"
+sudo rm -rf "/usr/lib64/cmake/vibrantize"
+```
+
+
+
+
+
